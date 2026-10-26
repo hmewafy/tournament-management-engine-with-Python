@@ -20,7 +20,7 @@ DaySchedule = Dict[str, Match]
 Schedule = List[DaySchedule]
 
 # ---------------------------------------------------------
-# Generate all permutations of length k
+# Generate All Permutations of Length k
 # -----------------------------------------------  ------------
 def k_permutations(arr: List, k: int) -> List[List]:
     """
